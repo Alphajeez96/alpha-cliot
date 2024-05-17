@@ -119,7 +119,7 @@ const cardItems: Card[] = [
 ];
 
 const getImageUrl = (url: string) => {
-  return new URL(`../../assets/${url}`, import.meta.url).href;
+  return new URL(`../../assets/svg/${url}`, import.meta.url).href;
 };
 </script>
 
