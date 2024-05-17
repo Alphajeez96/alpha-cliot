@@ -2,7 +2,7 @@
   <footer class="app-container">
     <div class="row justify-between">
       <div class="col-md-3">
-        <img src="~/assets/logo-2.svg" alt="logo" />
+        <img src="~/assets/svg/logo-2.svg" alt="logo" />
         <p class="logo-text" style="padding-top: 0.875rem">
           우리는 국가의 장벽을 넘어 최고의 인재를 매 <br />
           칭해드립니다.
@@ -31,7 +31,7 @@
           <p class="text">
             {{ item.text }}
             <span>
-              <img src="~/assets/outline-arrow.svg" alt="arrow" />
+              <img src="~/assets/svg/outline-arrow.svg" alt="arrow" />
             </span>
           </p>
         </div>

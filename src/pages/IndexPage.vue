@@ -60,7 +60,7 @@
           <span class="tooltip absolute">
             <PopoverTip position="center">
               <p class="tip row">
-                <img src="~/assets/usd.svg" alt="usd" />
+                <img src="~/assets/svg/usd.svg" alt="usd" />
                 월 100만원
               </p>
             </PopoverTip>
@@ -76,10 +76,10 @@
             <el-carousel-item v-for="i in 3" :key="i">
               <div class="carousel-card">
                 <q-avatar rounded size="120px" class="relative">
-                  <img src="~/assets/gupta.png" alt="avatar" />
+                  <img src="~/assets/images/gupta.png" alt="avatar" />
 
                   <span class="absolute flag">
-                    <img src="~/assets/flag.svg" alt="flag" />
+                    <img src="~/assets/svg/flag.svg" alt="flag" />
                   </span>
                 </q-avatar>
 

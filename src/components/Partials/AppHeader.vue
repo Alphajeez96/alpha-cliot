@@ -1,6 +1,6 @@
 <template>
   <header class="row justify-between pt-4">
-    <img src="~/assets/logo.svg" alt="logo" />
+    <img src="~/assets/svg/logo.svg" alt="logo" />
 
     <!-- Hamburger menu -->
     <div class="hamburger" @click="toggleMenu">
@@ -25,7 +25,7 @@
         </q-menu>
 
         <span>
-          <img src="~/assets/caret-down.svg" alt="caret-down" />
+          <img src="~/assets/svg/caret-down.svg" alt="caret-down" />
         </span>
       </div>
 

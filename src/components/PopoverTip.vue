@@ -1,6 +1,6 @@
 <template>
   <div class="holder">
-    <img src="~/assets/polygon.svg" alt="polygon" :class="position" />
+    <img src="~/assets/svg/polygon.svg" alt="polygon" :class="position" />
     <slot />
   </div>
 </template>
