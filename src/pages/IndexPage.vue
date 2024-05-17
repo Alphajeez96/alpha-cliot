@@ -76,7 +76,7 @@
             <el-carousel-item v-for="i in 3" :key="i">
               <div class="carousel-card">
                 <q-avatar rounded size="120px" class="relative">
-                  <img src="~/assets/gupta.svg" alt="avatar" />
+                  <img src="~/assets/gupta.png" alt="avatar" />
 
                   <span class="absolute flag">
                     <img src="~/assets/flag.svg" alt="flag" />
@@ -176,11 +176,7 @@ AOS.init();
 
 <style lang="scss" scoped>
 .hero-region {
-  background-image: url('../assets/hero-bg.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
+  background: linear-gradient(to bottom right, #00a9ba, #35a3cb, #2358d9 115%);
   .content-holder {
     margin-top: 11rem;
     color: white;
